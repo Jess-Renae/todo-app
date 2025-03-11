@@ -9,7 +9,7 @@ today.innerHTML = todayDate;
 
 
 
-const url = "http://www.localhost:3000/todos";
+const url = "https://full-stack-todo-app-backend-bice.vercel.app/todos";
 
 async function getTodos() {
     try {
@@ -117,7 +117,7 @@ async function deleteItem(id){
     console.log(id);
 
     //url parameters
-    const deleteUrl = `http://www.localhost:3000/todos/${id}`
+    const deleteUrl = `https://full-stack-todo-app-backend-bice.vercel.app/todos/${id}`
     //console.log(url)
 
     try {
@@ -148,7 +148,7 @@ async function updateItem(itemToUpdate) {
 
     isUpdating = true;
 
-    const updateURL = `http://www.localhost:3000/todos/${_id}`;
+    const updateURL = `https://full-stack-todo-app-backend-bice.vercel.app/todos/${_id}`;
 
     input.value = text;
 
