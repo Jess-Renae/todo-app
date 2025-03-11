@@ -9,7 +9,7 @@ today.innerHTML = todayDate;
 
 
 
-const url = "http://localhost:3000/todos"
+const url = "http://www.localhost:3000/todos";
 
 async function getTodos() {
     try {

@@ -23,7 +23,7 @@ const TodoModel = require("./model/Todo.js");
 
 
 
-const connectionString = "mongodb+srv://jess:6TV7QlPkAIN4iUYq@cluster0.w4ak2.mongodb.net/todoDB" //we added the name of the database to the end of the string
+const connectionString = "mongodb+srv://jess:FJxlQQcOsVRz8nJx@cluster0.w4ak2.mongodb.net/todoDB" //we added the name of the database to the end of the string
 mongoose.connect(connectionString).then(() => {
     console.log("connected to the database");
     app.listen(3000, function(){
